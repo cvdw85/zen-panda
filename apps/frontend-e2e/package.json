@@ -1,0 +1,11 @@
+{
+  "name": "@zen-panda/zen-panda-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "frontend"
+    ],
+    "name": "frontend-e2e"
+  }
+}
