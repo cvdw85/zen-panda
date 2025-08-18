@@ -2,7 +2,9 @@
   "name": "@zen-panda/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many -t=dev --parallel=true -p=zen-panda"
+  },
   "private": true,
   "dependencies": {
     "next": "~15.2.4",
@@ -55,6 +57,7 @@
     "typescript-eslint": "^8.29.0"
   },
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "frontend"
   ]
 }

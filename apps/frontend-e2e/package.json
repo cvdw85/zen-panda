@@ -4,7 +4,8 @@
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@zen-panda/zen-panda"
-    ]
+      "frontend"
+    ],
+    "name": "frontend-e2e"
   }
 }

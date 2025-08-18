@@ -6,13 +6,13 @@ const createJestConfig = nextJest({
 });
 
 const config: Config = {
-  displayName: '@zen-panda/zen-panda',
+  displayName: 'frontend',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/zen-panda',
+  coverageDirectory: '../../coverage/apps/frontend',
   testEnvironment: 'jsdom',
 };
 
